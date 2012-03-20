@@ -1,0 +1,18 @@
+rvtmod
+======
+
+rvtmod is a set of tools made to create and modify Re-Volt binary files, originally created by Alexander Kröller. Check out [ali's revolt stuff](http://www.perror.de/rv/), the official page where rvtmod resides. 
+
+This repository is meant to hold a maintained version (starting at rvtmod7) that expands the features of the original toolset. 
+
+Building rvtmod
+---------------
+
+CMake scripts are supplied. You can refer to CMake's documentation to figure out how to create your project files. Here's a simple usage for UNIX folks: 
+
+`mkdir -p <my-build-path> && cd <my-build-path> && cmake <path-to-rvtmod> && make`
+
+Contribute
+----------
+
+Feel free to fork the project, do your stuff and request a pull. 
